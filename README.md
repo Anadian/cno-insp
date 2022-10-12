@@ -14,7 +14,17 @@
 - [License](#License)
 # Background
 # Install
+Example using [pnpm](https://pnpm.io/cli/add):
+```sh
+pnpm add --save extract-documentation-comments
+```
+It can, of course, also be installed by [npm](https://docs.npmjs.com/cli/v8/commands/npm-install) or [Yarn](https://yarnpkg.com/getting-started/usage) using the normal methods.
 # Usage
+```js
+import insp from 'insp';
+
+insp( some_object );
+```
 # API
 # Contributing
 Changes are tracked in [CHANGELOG.md](CHANGELOG.md).
