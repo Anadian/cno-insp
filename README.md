@@ -1,4 +1,4 @@
-# insp
+# cno-insp
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![Semantic Versioning 2.0.0](https://img.shields.io/badge/semver-2.0.0-brightgreen?style=flat-square)](https://semver.org/spec/v2.0.0.html)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
@@ -16,12 +16,12 @@
 # Install
 Example using [pnpm](https://pnpm.io/cli/add):
 ```sh
-pnpm add --save extract-documentation-comments
+pnpm add --save cno-insp
 ```
 It can, of course, also be installed by [npm](https://docs.npmjs.com/cli/v8/commands/npm-install) or [Yarn](https://yarnpkg.com/getting-started/usage) using the normal methods.
 # Usage
 ```js
-import insp from 'insp';
+import insp from 'cno-insp';
 
 insp( some_object );
 ```

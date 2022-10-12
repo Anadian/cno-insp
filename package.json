@@ -1,5 +1,5 @@
 {
-	"name": "insp",
+	"name": "cno-insp",
 	"version": "1.0.0",
 	"description": "A micro package that simply stringifies objects, ala Util.inspect, but with less characters.",
 	"main": "source/main.js",
